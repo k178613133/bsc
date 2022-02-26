@@ -607,9 +607,9 @@ contract FRP is IERC20, Ownable  {
     address private _projectAddress = address(0x66495A2AEd7ceaDE5d1759F941eC188e9ce0a1ab);
 
     constructor(address tokenOwner) {
-        _name = "BTC025";//全称
-        _symbol = "BTC025";//简称
-        _decimals = 18;//精度
+        _name = "VirtualTreasureCoin";
+        _symbol = "VTC";
+        _decimals = 18;
 
         IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(
             0x10ED43C718714eb63d5aA57B78B54704E256024E
